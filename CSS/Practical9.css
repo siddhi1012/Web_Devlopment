@@ -10,3 +10,6 @@ h1{
 h3{
     color: black;
 }
+a{
+    text-decoration: rgb(0,255,0) none;
+}
