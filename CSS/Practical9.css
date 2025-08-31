@@ -11,5 +11,6 @@ h3{
     color: black;
 }
 a{
-    text-decoration: rgb(0,255,0) none;
+    text-decoration: none;
+    color: rgb(0, 255, 0);
 }
