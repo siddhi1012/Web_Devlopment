@@ -6,3 +6,13 @@
 h1{
     color: #B92B27;
 }
+/* Id Selector */
+#signup{
+    background-color: #B92B27;
+    color: azure;
+}
+/* Class Selector */
+.upvote{
+    background-color: cadetblue;
+    color: azure;
+}
