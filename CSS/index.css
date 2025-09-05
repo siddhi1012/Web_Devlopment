@@ -31,3 +31,13 @@ h1{
 nav ul li a{
     color: hotpink;
 }
+ /* Practice Question */
+ #myId p{
+    color: green;
+    background-color: aliceblue;
+ }
+ /* or */
+ div[id="myId"] p{
+    color: green;
+    background-color: aliceblue;
+ }
