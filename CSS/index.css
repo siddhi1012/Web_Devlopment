@@ -1,0 +1,8 @@
+/* Universal Selector */
+*{ 
+    background-color: blanchedalmond ;
+}
+/* Element Selector */
+h1{
+    color: #B92B27;
+}
