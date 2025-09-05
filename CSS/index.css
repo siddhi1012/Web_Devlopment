@@ -16,3 +16,15 @@ h1{
     background-color: cadetblue;
     color: azure;
 }
+/* Decendent Selector */
+/* p a{
+    color: purple;
+    background-color: yellow;
+
+} */
+ /* We can also give decendent selector with class */
+.post a{
+    color: purple;
+    background-color: yellow;
+
+}
