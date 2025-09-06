@@ -1,4 +1,4 @@
-/* Selector */
+/* Using Selector */
 #mainTopic{
     color: blue;
 }
@@ -16,3 +16,5 @@ div button{
     background-color: purple;
     color: azure;
 }
+
+/* Using the Pseduo Class */
