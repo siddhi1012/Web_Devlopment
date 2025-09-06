@@ -5,3 +5,14 @@
 *{
     text-align: center;
 }
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#myId{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
