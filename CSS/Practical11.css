@@ -2,6 +2,12 @@ div{
     height: 200px;
     width: 500px;
     background-color: aqua;
-    
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+    padding: 15px;
+    margin: 5px;
+
+
 
 }
