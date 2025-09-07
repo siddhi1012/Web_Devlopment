@@ -8,6 +8,8 @@ div{
     padding: 15px;
     margin: 5px;
 
-
-
+}
+h1{
+    /* short hand */
+    border: 2px dotted maroon;
 }
