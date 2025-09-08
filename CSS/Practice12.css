@@ -1,5 +1,23 @@
 #outer{
-    height: 20px;
+    height: 200px;
     width: 70px;
     border: 2px solid black;
+}
+#one{
+    height: 50px;
+    width: 50px;
+    border: 2px solid red ;
+    margin: 8px;
+}
+#two{
+    height: 50px;
+    width: 50px;
+    border: 2px solid yellow ;
+    margin: 8px;
+}
+#three{
+    height: 50px;
+    width: 50px;
+    border: 2px solid green ;
+    margin: 8px;
 }
