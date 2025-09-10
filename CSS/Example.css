@@ -1,6 +1,8 @@
-h2{
-    display: inline;
-}
 span{
-    display: block;
+    background-color: brown;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+   
 }
