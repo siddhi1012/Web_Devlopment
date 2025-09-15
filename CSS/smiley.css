@@ -2,7 +2,7 @@
     height: 400px;
     width: 400px;
     background-color: yellow;
-    margin: 0 auto;
+   
     border-radius: 50%;
 }
 .mouth{
@@ -12,22 +12,22 @@
     border-radius: 0 0 50px 50px;
     position: absolute;
     top: 250px;
-    right:280px;
+    left:100px;
 }
 
 .left-eye,.right-eye{
-    height: 70px; ;
-    width: 70px;
+    height: 50px; ;
+    width: 50px;
     background-color: black;
     display: inline-block;
     border-radius: 50%;
     position: absolute;
-    left: 300px;
+    left: 100px;
     top: 100px;
 
 }
  .right-eye{
-         left: 400px ;
+         left: 250px ;
 
  }
  
