@@ -2,7 +2,7 @@ div{
     height: 50px;
     width: 200px;
     background-color: #7aa874;
-    margin: 10px;
+    margin: 10px auto;
     border: 2px solid black;
     text-align: center;
 }
@@ -14,4 +14,28 @@ div:nth-of-type(2n){
 }
 div:nth-of-type(3n){
     background-color: #ebb02d;
+}
+/* Transform - Rotate*/
+#one{
+    transform: rotate(-45deg);
+  
+
+}
+/* Transform - Scale */
+#two{
+ transform: scale(1.4);
+        
+}
+/* Transform - Translate */
+#three{
+    transform: translate(-100px);
+  
+}
+/* transform - skew */
+#four{
+    transform: skew(45deg);
+}
+/*  Apply tranform property  */
+#five{
+    transform: rotate(30deg) translate(100px) scale(0.5);
 }
