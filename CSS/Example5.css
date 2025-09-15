@@ -37,5 +37,5 @@ div:nth-of-type(3n){
 }
 /*  Apply tranform property  */
 #five{
-    transform: rotate(30deg) translate(100px) scale(0.5);
+    transform: rotate(30deg) translateY(100px) scale(0.5);
 }
