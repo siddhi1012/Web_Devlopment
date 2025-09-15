@@ -1,22 +1,6 @@
-div{
-    display: inline-block;
-    margin: 30px;
-}   
-img{
-    width: 100%;
-}     
-
-#one{
+.card{
     height: 200px;
     width: 200px;
-    background-color: #c90eb0;
-    border: 2px solid black;
 }
 
-#two{
-    height: 200px;
-    width: 200px;
-    background-color: #6ef0c7;
-      border: 2px solid black;
 
-}
