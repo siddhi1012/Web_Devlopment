@@ -10,6 +10,11 @@
     height: 70px;
     background-color: brown;
     border-radius: 0 0 50% 50%;
+    transform: translate(250px,250px);
+    position: relative;
+    top: 0;
+    right: 150px;
+
 }
 
 
