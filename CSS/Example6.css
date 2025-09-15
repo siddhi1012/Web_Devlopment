@@ -3,4 +3,6 @@ div{
     width: 200px;
     background-color: coral;
     box-shadow: 2px 2px 10px green;
-}
+    text-align: center;
+    margin: 10px auto;
+} 
