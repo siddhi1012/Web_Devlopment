@@ -12,7 +12,7 @@
     border-radius: 0 0 50px 50px;
     position: absolute;
     top: 250px;
-    right: 200px;
+    right:50px;
 }
 
 .left-eye,.right-eye{
@@ -22,12 +22,12 @@
     display: inline-block;
     border-radius: 50%;
     position: absolute;
-    left: 200px;
+    left: 300px;
     top: 100px;
 
 }
  .right-eye{
-         left: 350px ;
+         left: 400px ;
 
  }
  
