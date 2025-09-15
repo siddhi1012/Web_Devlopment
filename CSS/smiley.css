@@ -15,6 +15,20 @@
     right: 200px;
 }
 
- 
+.left-eye,.right-eye{
+    height: 70px; ;
+    width: 70px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+
+}
+ .right-eye{
+         left: 350px ;
+
+ }
  
  
