@@ -2,17 +2,21 @@ div{
     /* initial state */
     height: 200px;
     width: 200px;
-    background-color: cadetblue;
-    /* transition: margin-top 2s ease-in-out 0.2s; */
-    transition-duration: 2s;
+    background-color: teal;
+    transition: margin-top 2s ease-in-out 0.2s;   
+    /* margin-top beacause we want to transition on it */
+    /* transition-duration: 2s;
     transition-delay: 1s;
-    transition-timing-function: steps(6);
+    transition-timing-function: steps(6); */
+    margin: 0 auto;
+    margin-top: 20px;
 
       
     
 }
 div:hover{
     /* Final State */
-    background-color: chartreuse;
-    border-radius: 50%;
+    background-color: goldenrod;
+    /* border-radius: 50%; */
+    margin-top: 400px;
 }
