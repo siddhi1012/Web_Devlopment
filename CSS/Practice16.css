@@ -1,6 +1,15 @@
 .card{
     height: 200px;
     width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 20px;
 }
-
+img {
+    width: 70%;
+    background-size: contain;
+    border-radius: 5px 5px 0 0;
+    
+}
 
