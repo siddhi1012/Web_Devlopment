@@ -6,7 +6,8 @@
     border: 2px solid black;
     display: flex;
     flex-direction:row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    align-items: baseline;
    
  
 
@@ -15,8 +16,8 @@ h1{
     text-align: center;
 }
 #container div{
-    height:200px;
-    width:200px;
+    height:100px;
+    width:300px;
     color: aliceblue;
     text-align: center;
     font-size:1.5em;
