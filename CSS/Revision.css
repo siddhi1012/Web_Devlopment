@@ -2,3 +2,20 @@ table{
     border: 2px solid black;
     margin: auto;
 }
+button{
+    background-color: aqua;
+    color: black;
+}
+button:hover{
+    background-color: brown;
+    color: cornsilk;
+}
+
+button:active{
+    background-color: #d4c6c6;
+    color:  #580202;
+}
+input[type="radio"]:checked +label{
+    color: green;
+    font-weight: bolder;
+}
