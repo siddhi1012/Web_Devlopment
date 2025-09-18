@@ -1,0 +1,19 @@
+#container{
+    height: 50px;
+    width: 900px;
+    border:2px solid blue;
+    display: flex;
+    background-color: pink;
+    border-radius: 10px ;
+    justify-content: flex-start;
+    align-content:center ;
+
+}
+.op{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 50px;
+   
+}
