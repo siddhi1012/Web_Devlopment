@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 70px 70px 70px 70px; */
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(3,2fr);
+}
+.item{
+    /* width: 100px;
+    height: 50px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
