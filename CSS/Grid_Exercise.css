@@ -1,0 +1,31 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    display:inline-grid;;
+    /* grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px;  */
+    grid-template-rows: repeat(3,2fr);
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 50px 10px;
+    /* justify-items: center;
+    align-items: start; */
+    place-items: start;
+}
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+.one{
+   justify-items: start;
+   background-color: aquamarine;
+}
+span{
+    background-color: chocolate;
+  
+}
+
