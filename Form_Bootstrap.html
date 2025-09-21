@@ -10,21 +10,45 @@
    <div class="container">
     <h2>Form Demo</h2>
     <form>
-        <div class="mb-3">
+        <div class="row">
+            <div class="mb-3 col-md-6">
              <label class="form-label" for="email">Email:</label>
              <input type="text" class="form-control" placeholder="Enter Email" id="email"><br>
-        </div>
-
-        <div class="mb-3"> 
+            </div>
+            <div class="mb-3 col-md-6"> 
               <label class="form-label" for="pass">Password:</label>
               <input type="text" class="form-control" placeholder="Enter Password" id="pass"><br>
+            </div>
         </div>
        <div class="mb-3">
             <label class="form-label" for="Add">Address:  </label>
             <input type="text" class="form-control-lg" placeholder="Enter Address" id="Add"><br>
+       </div>
+       <div class="mb-3">
+        <select class="form-select">
+            <option selected>Choose Your City</option>
+            <option value="1">Mumbai</option>
+            <option value="2">Pune</option>
+            <option value="3">Delhi</option>
+        </select>
        </div> 
-       <button class="btn btn-success">Submit</button>
-       
+       <div class="md-3 form-check">
+        <input class="form-check-input" id="AgreeID" type="checkbox" >
+        <label class="form-check-label" for="AgreeID">Yess</label><br>
+        <br>
+        <input class="form-check-input" id="ID1" type="radio" >
+        <label class="form-check-label" for="ID2">Agree</label><br>
+        <input class="form-check-input" id="ID2" type="radio" >
+        <label class="form-check-label" for="ID2">Disagree</label>   
+    </div>
+    <div class="md-3">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="check1">
+            <label class="form-check-label" for="check1">checked switch checkbox input</label>
+        </div>
+
+    </div>
+         <button class="btn btn-success">Submit</button>
     </form>
    </div>
 
