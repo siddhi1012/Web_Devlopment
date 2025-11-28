@@ -1,5 +1,3 @@
-let marks = 90;
- if ((marks>=44 && marks>= 88)){
-    console.log("Pass");
-    console.log("A");
- }
+let firstName=prompt("Enter your name");
+let lastName=prompt("Enter your name");
+alert("Welcome",firstName , "", lastName,"!");
