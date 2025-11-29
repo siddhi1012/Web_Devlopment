@@ -32,3 +32,23 @@ while(copy1 > 0){
 
 }
 console.log("Sum is :",sum);
+
+
+console.log("Question-4");
+let n1 = 5;
+let fact = 1;
+for(let i=1; i<=n1; i++){
+    fact = fact * i;
+}
+ console.log("Factorial is",fact);
+
+console.log("Question-5");
+let arr1 = [23,56,72,90,16,34];
+let large = 0;
+for(let i=0; i<arr1.length;i++){
+    if(large < arr1[i]){
+        large = arr1[i];
+
+    }
+}
+console.log("Largest element in arr",large);
