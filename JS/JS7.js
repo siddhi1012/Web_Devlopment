@@ -39,3 +39,18 @@
 // console.log(p);
 
 // const sum = (a,b) => (a+b);
+
+//  setTimeout (function,timeout)
+// console.log("Hi There!!!");
+// setTimeout(()=>{
+//     console.log("Apna College"); 
+// },4000)
+// console.log("Welcome to....");
+
+let id = setInterval(() =>{
+    console.log("Duduu Loves Bubuu...Puiiii...Puiii...");
+},4000);
+setTimeout(()=>{
+    console.log("Stopped");
+    clearInterval(id);
+},12000)
