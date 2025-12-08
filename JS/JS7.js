@@ -12,3 +12,8 @@ setTimeout(() => {
     clearInterval(id);
     console.log("Clear Interval Ran")
 },10000);
+
+
+let sum = function (a ,b){
+    return a + b ;
+}
