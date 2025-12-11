@@ -53,4 +53,5 @@ let id = setInterval(() =>{
 setTimeout(()=>{
     console.log("Stopped");
     clearInterval(id);
-},12000)
+},12000);
+
